@@ -1,6 +1,6 @@
 # npmtest-telegraf
 
-#### test coverage for  [telegraf (v3.6.7)](https://github.com/telegraf/telegraf#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-telegraf.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-telegraf) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-telegraf.svg)](https://travis-ci.org/npmtest/node-npmtest-telegraf)
+#### basic test coverage for  [telegraf (v3.6.7)](https://github.com/telegraf/telegraf#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-telegraf.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-telegraf) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-telegraf.svg)](https://travis-ci.org/npmtest/node-npmtest-telegraf)
 
 #### 📡 Modern Telegram bot framework
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-telegraf/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-telegraf/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-telegraf/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-telegraf/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-telegraf/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-telegraf/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-telegraf/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-telegraf/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-telegraf/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-telegraf/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-telegraf/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-telegraf/build/coverage.html/index.html)
 
@@ -100,7 +100,8 @@
         "prepush": "npm test",
         "test": "eslint . && ava test --timeout=5s"
     },
-    "version": "3.6.7"
+    "version": "3.6.7",
+    "bin": {}
 }
 ```
 
